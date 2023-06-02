@@ -1,0 +1,52 @@
+Label , RadioButton , CheckBox{
+    -fx-text-alignment : center;
+    -fx-font-size : 20;
+    -fx-font-weight : bold;
+    -fx-text-fill: black;
+}
+
+TextField , PasswordField{
+    -fx-padding: 5 25 5 25;
+    -fx-border-color: darkblue;
+}
+.btn{
+    -fx-padding: 8 30 8 30;
+    -fx-background-color: blue;
+    -fx-border-radius: 10; 
+    -fx-text-fill: white;
+    -fx-font-weight : bold;
+    -fx-font-size: 20;
+}
+.btn:hover{
+   -fx-background-color: deepskyblue;
+
+}
+.stackPane{
+    -fx-background-color : linear-gradient(to bottom right, red, darkblue); /* beautiful colors:  deepskyblue */
+    -fx-alignment: center;
+    -fx-text-fill: white;
+    -fx-padding: 10 35 10 35;
+}
+.stackPane Label{
+    -fx-text-fill: white;
+}
+
+.darkMode {
+    -fx-background-color: #36393e ;
+}
+
+.darkMode CheckBox{
+    -fx-text-fill: white;
+}
+  
+.darkMode Label{
+    -fx-text-fill: white;
+}
+.darkMode RadioButton{
+    -fx-text-fill: white;
+}
+.statusLabel {
+    -fx-translate-x: -85;
+    -fx-translate-y: 35;
+    
+}
